@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<behavior description="Get up from robot's back starting from Zero pose" auto_head="0">
+    <slot delta="0.028081112120805277">
+        <move id="0" angle="0.0"/>
+        <move id="1" angle="0.0"/>
+        <move id="2" angle="-24.101269"/>
+        <move id="3" angle="-24.101269"/>
+        <move id="4" angle="32.993332"/>
+        <move id="5" angle="32.993332"/>
+        <move id="6" angle="110.35986"/>
+        <move id="7" angle="110.35986"/>
+        <move id="8" angle="1.8788892"/>
+        <move id="9" angle="1.8788892"/>
+        <move id="10" angle="80.01187"/>
+        <move id="11" angle="80.01187"/>
+        <move id="12" angle="9.717135"/>
+        <move id="13" angle="9.717135"/>
+        <move id="14" angle="51.12714"/>
+        <move id="15" angle="51.12714"/>
+        <move id="16" angle="42.79977"/>
+        <move id="17" angle="42.79977"/>
+        <move id="18" angle="-86.264915"/>
+        <move id="19" angle="-86.264915"/>
+        <move id="20" angle="33.84708"/>
+        <move id="21" angle="33.84708"/>
+    </slot>
+    <slot delta="0.23351845363901297">
+        <move id="0" angle="0.0"/>
+        <move id="1" angle="0.0"/>
+        <move id="2" angle="-45.0749"/>
+        <move id="3" angle="-45.0749"/>
+        <move id="4" angle="-14.139231"/>
+        <move id="5" angle="-14.139231"/>
+        <move id="6" angle="45.828407"/>
+        <move id="7" angle="45.828407"/>
+        <move id="8" angle="12.7746315"/>
+        <move id="9" angle="12.7746315"/>
+        <move id="10" angle="39.730194"/>
+        <move id="11" angle="39.730194"/>
+        <move id="12" angle="-41.445404"/>
+        <move id="13" angle="-41.445404"/>
+        <move id="14" angle="-20.96023"/>
+        <move id="15" angle="-20.96023"/>
+        <move id="16" angle="67.418335"/>
+        <move id="17" angle="67.418335"/>
+        <move id="18" angle="136.93271"/>
+        <move id="19" angle="136.93271"/>
+        <move id="20" angle="79.51946"/>
+        <move id="21" angle="79.51946"/>
+    </slot>
+    <slot delta="0.3334680044481105">
+        <move id="0" angle="0.0"/>
+        <move id="1" angle="0.0"/>
+        <move id="2" angle="-47.639645"/>
+        <move id="3" angle="-47.639645"/>
+        <move id="4" angle="36.16746"/>
+        <move id="5" angle="36.16746"/>
+        <move id="6" angle="106.46471"/>
+        <move id="7" angle="106.46471"/>
+        <move id="8" angle="-39.363796"/>
+        <move id="9" angle="-39.363796"/>
+        <move id="10" angle="-72.647545"/>
+        <move id="11" angle="-72.647545"/>
+        <move id="12" angle="-25.91456"/>
+        <move id="13" angle="-25.91456"/>
+        <move id="14" angle="72.665886"/>
+        <move id="15" angle="72.665886"/>
+        <move id="16" angle="-46.327827"/>
+        <move id="17" angle="-46.327827"/>
+        <move id="18" angle="-66.61269"/>
+        <move id="19" angle="-66.61269"/>
+        <move id="20" angle="-31.427937"/>
+        <move id="21" angle="-31.427937"/>
+    </slot>
+    <slot delta="0.02">
+        <move id="0" angle="0.0"/>
+        <move id="1" angle="0.0"/>
+        <move id="2" angle="-75.75934"/>
+        <move id="3" angle="-75.75934"/>
+        <move id="4" angle="22.589397"/>
+        <move id="5" angle="22.589397"/>
+        <move id="6" angle="29.006308"/>
+        <move id="7" angle="29.006308"/>
+        <move id="8" angle="-38.235386"/>
+        <move id="9" angle="-38.235386"/>
+        <move id="10" angle="-60.07112"/>
+        <move id="11" angle="-60.07112"/>
+        <move id="12" angle="-7.1391"/>
+        <move id="13" angle="-7.1391"/>
+        <move id="14" angle="-4.2825775"/>
+        <move id="15" angle="-4.2825775"/>
+        <move id="16" angle="134.62912"/>
+        <move id="17" angle="134.62912"/>
+        <move id="18" angle="131.15475"/>
+        <move id="19" angle="131.15475"/>
+        <move id="20" angle="73.77145"/>
+        <move id="21" angle="73.77145"/>
+    </slot>
+    <slot delta="0.05570955407520801">
+        <move id="0" angle="0.0"/>
+        <move id="1" angle="0.0"/>
+        <move id="2" angle="-19.975779"/>
+        <move id="3" angle="-19.975779"/>
+        <move id="4" angle="41.732513"/>
+        <move id="5" angle="41.732513"/>
+        <move id="6" angle="102.82768"/>
+        <move id="7" angle="102.82768"/>
+        <move id="8" angle="-136.81155"/>
+        <move id="9" angle="-136.81155"/>
+        <move id="10" angle="14.452017"/>
+        <move id="11" angle="14.452017"/>
+        <move id="12" angle="-36.594322"/>
+        <move id="13" angle="-36.594322"/>
+        <move id="14" angle="-10.283749"/>
+        <move id="15" angle="-10.283749"/>
+        <move id="16" angle="46.129036"/>
+        <move id="17" angle="46.129036"/>
+        <move id="18" angle="-29.25866"/>
+        <move id="19" angle="-29.25866"/>
+        <move id="20" angle="-28.004427"/>
+        <move id="21" angle="-28.004427"/>
+    </slot>
+    <slot delta="0.15631983125111132">
+        <move id="0" angle="0.0"/>
+        <move id="1" angle="0.0"/>
+        <move id="2" angle="-1.2392063"/>
+        <move id="3" angle="-1.2392063"/>
+        <move id="4" angle="50.825813"/>
+        <move id="5" angle="50.825813"/>
+        <move id="6" angle="81.91005"/>
+        <move id="7" angle="81.91005"/>
+        <move id="8" angle="-114.5607"/>
+        <move id="9" angle="-114.5607"/>
+        <move id="10" angle="46.413334"/>
+        <move id="11" angle="46.413334"/>
+        <move id="12" angle="-11.515432"/>
+        <move id="13" angle="-11.515432"/>
+        <move id="14" angle="-17.704185"/>
+        <move id="15" angle="-17.704185"/>
+        <move id="16" angle="11.881702"/>
+        <move id="17" angle="11.881702"/>
+        <move id="18" angle="116.02219"/>
+        <move id="19" angle="116.02219"/>
+        <move id="20" angle="85.50837"/>
+        <move id="21" angle="85.50837"/>
+    </slot>
+</behavior>

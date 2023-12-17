@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<behavior description="Squat for demonstrations" auto_head="0">
+    <slot delta="1.0">    <!-- GO DOWN -->
+        <move id="6" angle="40"/>  <!-- Left  leg pitch -->
+        <move id="7" angle="40"/>  <!-- Right leg pitch -->
+        <move id="8" angle="-80"/> <!-- Left  knee -->
+        <move id="9" angle="-80"/> <!-- Right knee -->
+        <move id="10" angle="40"/> <!-- Left  foot pitch -->
+        <move id="11" angle="40"/> <!-- Right foot pitch -->
+        <move id="16" angle="30"/> <!-- Left  arm roll -->
+        <move id="17" angle="30"/> <!-- Right arm roll -->
+    </slot>
+    <slot delta="1.0">    <!-- GO UP -->
+        <move id="6" angle="0"/>   <!-- Left  leg pitch -->
+        <move id="7" angle="0"/>   <!-- Right leg pitch -->
+        <move id="8" angle="0"/>   <!-- Left  knee -->
+        <move id="9" angle="0"/>   <!-- Right knee -->
+        <move id="10" angle="0"/>  <!-- Left  foot pitch -->
+        <move id="11" angle="0"/>  <!-- Right foot pitch -->
+        <move id="16" angle="0"/>  <!-- Left  arm roll -->
+        <move id="17" angle="0"/>  <!-- Right arm roll -->
+    </slot>
+</behavior>

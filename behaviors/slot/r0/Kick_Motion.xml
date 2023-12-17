@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<behavior description="Kick motion with right leg" auto_head="1">
+    <slot delta="0.22">    <!-- Lean -->
+        <move id="5" angle="-10"/>  <!-- Left  leg roll -->
+        <move id="6" angle="40"/>   <!-- Left  leg pitch -->
+        <move id="7" angle="65"/>   <!-- Right leg pitch -->
+        <move id="8" angle="-60"/>  <!-- Left  knee -->
+        <move id="9" angle="-115"/> <!-- Right knee -->
+        <move id="10" angle="60"/>  <!-- Left  foot pitch -->
+        <move id="11" angle="10"/>  <!-- Right foot pitch -->
+    </slot>
+    <slot delta="0.12">    <!-- Kick -->
+        <move id="3" angle="-45"/> <!-- Right leg yaw/pitch -->
+        <move id="6" angle="-25"/> <!-- Left  leg pitch -->
+        <move id="7" angle="80"/>  <!-- Right leg pitch -->
+        <move id="8" angle="0"/>   <!-- Left knee -->
+        <move id="9" angle="0"/>   <!-- Right knee -->
+        <move id="10" angle="30"/> <!-- Left  foot pitch -->
+    </slot>
+</behavior>

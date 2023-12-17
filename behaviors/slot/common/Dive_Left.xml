@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<behavior description="Dive left (goalkeeper)" auto_head="1">
+    <slot delta="0.28">
+        <move id="2" angle="0"/>
+        <move id="3" angle="0"/>
+        <move id="4" angle="-25"/>
+        <move id="5" angle="45"/>
+        <move id="6" angle="60"/>
+        <move id="7" angle="0"/>
+        <move id="8" angle="-120"/>
+        <move id="9" angle="0"/>
+        <move id="10" angle="60"/>
+        <move id="11" angle="0"/>
+        <move id="12" angle="25"/>
+        <move id="13" angle="-45"/>
+        <move id="14" angle="90"/>
+        <move id="15" angle="90"/>
+        <move id="16" angle="0"/>
+        <move id="17" angle="0"/>
+        <move id="18" angle="90"/>
+        <move id="19" angle="90"/>
+        <move id="20" angle="0"/>
+        <move id="21" angle="0"/>
+    </slot>
+    <slot delta="0.18">
+        <move id="2" angle="0"/>
+        <move id="3" angle="0"/>
+        <move id="4" angle="-25"/>
+        <move id="5" angle="45"/>
+        <move id="6" angle="60"/>
+        <move id="7" angle="0"/>
+        <move id="8" angle="-120"/>
+        <move id="9" angle="0"/>
+        <move id="10" angle="60"/>
+        <move id="11" angle="0"/>
+        <move id="12" angle="25"/>
+        <move id="13" angle="-45"/>
+        <move id="14" angle="90"/>
+        <move id="15" angle="90"/>
+        <move id="16" angle="0"/>
+        <move id="17" angle="0"/>
+        <move id="18" angle="90"/>
+        <move id="19" angle="90"/>
+        <move id="20" angle="0"/>
+        <move id="21" angle="0"/>
+    </slot>
+    <slot delta="0.32">
+        <move id="2" angle="0"/>
+        <move id="3" angle="0"/>
+        <move id="4" angle="0"/>
+        <move id="5" angle="0"/>
+        <move id="6" angle="0"/>
+        <move id="7" angle="0"/>
+        <move id="8" angle="0"/>
+        <move id="9" angle="0"/>
+        <move id="10" angle="0"/>
+        <move id="11" angle="0"/>
+        <move id="12" angle="0"/>
+        <move id="13" angle="0"/>
+        <move id="14" angle="90"/>
+        <move id="15" angle="90"/>
+        <move id="16" angle="0"/>
+        <move id="17" angle="0"/>
+        <move id="18" angle="90"/>
+        <move id="19" angle="90"/>
+        <move id="20" angle="0"/>
+        <move id="21" angle="0"/>
+    </slot>
+</behavior>
+

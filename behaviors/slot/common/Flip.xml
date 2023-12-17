@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<behavior description="Flip from sides before getting up" auto_head="0">
+    <slot delta="0.30">
+        <move id="14" angle="-120"/>
+        <move id="15" angle="-120"/>
+    </slot>
+    <slot delta="0.30">
+        <move id="16" angle="80"/>
+        <move id="17" angle="80"/>
+    </slot>
+</behavior>
