@@ -224,7 +224,12 @@ class World():
         elif PM is not None:
             raise ValueError(f'Unexpected play mode ID: {PM}')
 
-        r.update_pose()      # update forward kinematics
+        r.update_pose() # update forward kinematics
+
+        if self.ball_is_visible:
+            # Compute ball position, relative to torso
+            self.ball_rel_torso_cart_pos = r.head_to_body_part_transform("torso",self.ball_rel_head_cart_pos)
+
         if self.vision_is_up_to_date: # update vision based localization 
 
             # Prepare all variables for localization
@@ -268,7 +273,7 @@ class World():
 
             # Save last ball position to history at every vision cycle (even if not up to date) 
             self.ball_abs_pos_history.appendleft(self.ball_abs_pos) # from vision or radio
-            self.ball_rel_torso_cart_pos_history.appendleft(self.ball_rel_head_cart_pos)
+            self.ball_rel_torso_cart_pos_history.appendleft(self.ball_rel_torso_cart_pos)
 
             '''
             Get ball position based on vision or play mode
@@ -350,10 +355,6 @@ class World():
             self.ball_2d_pred_spd = self.ball_2d_pred_spd[1:]
 
         r.update_imu(self.time_local_ms)      # update imu (must be executed after localization)
-
-        if self.ball_is_visible:
-            # Compute ball position, relative to torso
-            self.ball_rel_torso_cart_pos = r.head_to_body_part_transform("torso",self.ball_rel_head_cart_pos)
 
 
     def update_other_robot(self,other_robot : Other_Robot):

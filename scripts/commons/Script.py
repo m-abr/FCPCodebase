@@ -83,10 +83,17 @@ class Script():
 
     def read_or_create_config(self) -> None:
 
-        if not path.isfile('config.json'):      # Save hardcoded default values if file does not exist
+        if not path.isfile('config.json'):       # save hardcoded default values if file does not exist
             with open("config.json", "w") as f:
                 json.dump(self.options, f, indent=4)
-        else:                                   # Load user-defined values (that can be overwritten in the terminal)
+        else:                                    # load user-defined values (that can be overwritten by command-line arguments)
+            if path.getsize("config.json") == 0: # wait for possible write operation when launching multiple agents
+                from time import sleep
+                sleep(1)
+            if path.getsize("config.json") == 0: # abort after 1 second
+                print("Aborting: 'config.json' is empty. Manually verify and delete if still empty.")
+                exit()
+                
             with open("config.json", "r") as f:
                 self.options = json.loads(f.read())
 
