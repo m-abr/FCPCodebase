@@ -49,3 +49,14 @@ The documentation is available [here](https://docs.google.com/document/d/1aJhwK2
     - Relative/absolute position & orientation of every body part & joint through forward kinematics and vision
     - Sample train environments
     - User-friendly interface to check active arguments and launch utilities & gyms
+
+## Citing the Project
+
+```
+@article{abreu2023designing,
+  title={Designing a Skilled Soccer Team for RoboCup: Exploring Skill-Set-Primitives through Reinforcement Learning},
+  author={Abreu, Miguel and Reis, Luis Paulo and Lau, Nuno},
+  journal={arXiv preprint arXiv:2312.14360},
+  year={2023}
+}
+```

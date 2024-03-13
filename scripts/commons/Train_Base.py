@@ -381,13 +381,13 @@ class Train_Base():
         EL_behavior = ET.Element('behavior',{'description':'Add description to XML file', "auto_head":auto_head})
 
         for i,s in enumerate(slots):
-            EL_slot = ET.SubElement(EL_behavior, 'slot', {'name':str(i), 'delta':str(s[0]/1000)})
+            EL_slot = ET.SubElement(EL_behavior, 'slot', {'delta':str(s[0]/1000)})
             for j in s[1]: # go through all joint indices
                 ET.SubElement(EL_slot, 'move', {'id':str(j), 'angle':str(s[2][j])})
 
         # create XML file
         xml_rough = ET.tostring( EL_behavior, 'utf-8' )
-        xml_pretty = minidom.parseString(xml_rough).toprettyxml(indent="  ")
+        xml_pretty = minidom.parseString(xml_rough).toprettyxml(indent="    ")
         with open(file, "w") as x:
             x.write(xml_pretty)
         
