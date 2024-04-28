@@ -32,7 +32,7 @@ class Get_Up(gym.Env):
         for delta_ms, indices, angles in self.player.behavior.slot_engine.behaviors[self.get_up_names[self.fall_direction]]:
             self.original_slots.append((delta_ms, indices, np.array(angles)))
 
-        self.obs = np.identity(len(self.original_slots))
+        self.obs = np.identity(len(self.original_slots)) # one-hot encoding for each slot
         self.current_slot = 0
 
         MAX = np.finfo(np.float32).max
@@ -147,7 +147,7 @@ class Get_Up(gym.Env):
                 reward += r.cheat_abs_pos[2] * 0.95**abs(r.gyro[1])
 
             print("rew:", reward)
-            obs = np.zeros(6)
+            obs = self.obs[0] # dummy observation
         else:
             obs = self.obs[self.current_slot]
 
