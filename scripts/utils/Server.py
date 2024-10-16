@@ -60,7 +60,6 @@ class Server():
 
         is_official_config = (v["Penalty Shootout"] == "Off" and v["Soccer Rules"] == "On" and v["Real Time"] == "On" and v["Cheats"] == "Off" and v["Full Vision"] == "Off" and
                               v["Add Noise"] == "On" and v["Sync Mode"] == "Off" and v["25Hz Monitor"] == "On")
-        print(v["Penalty Shootout"], is_official_config)
         v["Official Config"] = "On" if is_official_config else "Off"
         
     def change_config(self, setting_name, t_on, t_off, current_value=None, file=None):
