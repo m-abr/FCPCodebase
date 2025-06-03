@@ -53,10 +53,14 @@ The documentation is available [here](https://docs.google.com/document/d/1aJhwK2
 ## Citing the Project
 
 ```
-@article{abreu2023designing,
-  title={Designing a Skilled Soccer Team for RoboCup: Exploring Skill-Set-Primitives through Reinforcement Learning},
+@article{abreu2025designing,
+  title={Designing a skilled soccer team for RoboCup: exploring skill-set-primitives through reinforcement learning},
   author={Abreu, Miguel and Reis, Luis Paulo and Lau, Nuno},
-  journal={arXiv preprint arXiv:2312.14360},
-  year={2023}
+  journal={Neural Computing and Applications},
+  year={2025},
+  doi={10.1007/s00521-025-11151-3}
 }
 ```
+
+![](https://github.com/user-attachments/assets/0893c6c7-ad88-46dc-bcd6-cc7a2c49c719)
+RoboCup 3DSSL aggregated locomotion statistics for periods of notable change (2008-2013, 2017-2023). Metrics include average speed, average maximum speed, and maximum speed (all in m/s), plotted radially to show variation by movement direction, relative to the robot. Values at the top represent forward movement, values on the left indicate sideways movement to the left, and so on.
